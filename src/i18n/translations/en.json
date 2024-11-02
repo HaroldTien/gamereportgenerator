@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Log In",
+    "signup": "Sign Up",
+    "language": {
+      "en": "English",
+      "zh-TW": "Traditional Chinese",
+      "zh-CN": "Simplified Chinese"
+    }
+  },
+  "home": {
+    "welcome": "Welcome to Game Report Generator",
+    "about": {
+      "title": "About This Tool",
+      "description": "The Game Report Generator helps you create reports for your gaming sessions. Whether you want to request permission from your girlfriend or parents to play games, or share your gaming joy and achievements with them, this tool makes it easy to document game details and statistics, and organize them into your game report."
+    },
+    "howToUse": {
+      "title": "How to Use",
+      "steps": {
+        "1": "Navigate to the \"Generate Report\" section using the navigation bar above",
+        "2": "Enter the game title for the session you want to document",
+        "3": "Select the date when the game took place",
+        "4": "Input detailed player statistics in the provided text area",
+        "5": "Click \"Generate Report\" to create your formatted report"
+      }
+    },
+    "features": {
+      "title": "Features",
+      "list": {
+        "1": "Easy-to-use interface",
+        "2": "Customizable report format",
+        "3": "Player statistics tracking",
+        "4": "Instant report generation"
+      }
+    },
+    "getStarted": "Get Started"
+  },
+  "getStarted": {
+    "title": "Get Started",
+    "gameSelection": {
+      "title": "Select Your Game"
+    },
+    "reportType": {
+      "title": "Report Type",
+      "concluded": "Concluded Game",
+      "planning": "Game Planning"
+    },
+    "audience": {
+      "title": "Who is this report for?"
+    },
+    "customNeeds": {
+      "title": "Additional Requirements",
+      "placeholder": "Enter any specific requirements or notes for your report..."
+    },
+    "generate": "Generate Report",
+    "games": {
+      "pubg": "PUBG",
+      "lol": "League of Legends",
+      "valorant": "Valorant",
+      "csgo": "CS:GO",
+      "dota2": "Dota 2"
+    },
+    "audiences": {
+      "gf": "Girlfriend",
+      "dad": "Dad",
+      "mom": "Mom",
+      "coach": "Coach",
+      "classmate": "Classmate",
+      "self": "Self"
+    },
+    "gameDetails": {
+      "summonerName": "Summoner Name",
+      "summonerNamePlaceholder": "Enter your summoner name",
+      "gameId": "Game ID",
+      "gameIdPlaceholder": "Enter the game ID",
+      "gameDate": "Game Date",
+      "gameTime": "Game Time",
+      "gameDuration": "Duration",
+      "minutes": "minutes",
+      "hour": "hour",
+      "hours": "hours",
+      "startTime": "Start Time"
+    }
+  }
+} 

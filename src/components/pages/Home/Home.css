@@ -1,0 +1,105 @@
+/* Home.css */
+.home-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .home-container h1 {
+    font-family: 'Rajdhani', sans-serif;
+    color: #1a1c20;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+  
+  .home-container h2 {
+    font-family: 'Rajdhani', sans-serif;
+    color: #1a1c20;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .instructions-list {
+    padding-left: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .instructions-list li {
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .feature-item {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .feature-item::before {
+    content: "✓";
+    margin-right: 10px;
+    color: #f9cb28;
+    font-weight: bold;
+  }
+  
+  .get-started-button {
+    background: linear-gradient(90deg, #ff4d4d, #f9cb28);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .get-started-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .get-started-button:active {
+    transform: translateY(0);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .home-container {
+      padding: 1rem;
+    }
+  
+    .home-container h1 {
+      font-size: 2rem;
+    }
+  
+    .home-container h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  a.get-started-button {
+    text-decoration: none;
+    color: white;
+  }

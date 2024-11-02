@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "home": "首頁",
+    "about": "關於",
+    "contact": "聯絡",
+    "login": "登入",
+    "signup": "註冊",
+    "language": {
+      "en": "英文",
+      "zh-TW": "繁體中文",
+      "zh-CN": "簡體中文"
+    }
+  },
+  "home": {
+    "welcome": "歡迎使用遊戲報告產生器",
+    "about": {
+      "title": "關於本工具",
+      "description": "遊戲報告產生器幫助您為遊戲會話建立報告。無論您想要向女朋友或爸媽請求玩遊戲的許可，或是向身邊的人分享遊戲的喜悅與成就，本工具都能讓您輕鬆記錄遊戲詳情和統計數據，並整理出您的遊戲報告。"
+    },
+    "howToUse": {
+      "title": "使用方法",
+      "steps": {
+        "1": "使用上方導覽列進入「產生報告」部分",
+        "2": "輸入您要記錄的遊戲會話標題",
+        "3": "選擇遊戲進行的日期",
+        "4": "在提供的文字區域輸入詳細的遊戲統計數據",
+        "5": "點擊「產生報告」建立格式化報告"
+      }
+    },
+    "features": {
+      "title": "功能特點",
+      "list": {
+        "1": "簡單易用的界面",
+        "2": "可自定義的報告格式",
+        "3": "玩家數據統計追踪",
+        "4": "即時報告生成"
+      }
+    },
+    "getStarted": "開始使用"
+  },
+  "getStarted": {
+    "title": "開始使用",
+    "gameSelection": {
+      "title": "選擇您的遊戲"
+    },
+    "reportType": {
+      "title": "報告類型",
+      "concluded": "已完成的遊戲",
+      "planning": "遊戲計劃"
+    },
+    "audience": {
+      "title": "這份報告是給誰看的？"
+    },
+    "customNeeds": {
+      "title": "額外需求",
+      "placeholder": "輸入報告的具體要求或備註..."
+    },
+    "generate": "產生報告",
+    "games": {
+      "pubg": "絕地求生",
+      "lol": "英雄聯盟",
+      "valorant": "特戰英豪",
+      "csgo": "CS:GO",
+      "dota2": "DOTA 2"
+    },
+    "audiences": {
+      "gf": "女朋友",
+      "dad": "爸爸",
+      "mom": "媽媽",
+      "coach": "教練",
+      "classmate": "同學",
+      "self": "自己"
+    },
+    "gameDetails": {
+      "summonerName": "召喚師名稱",
+      "summonerNamePlaceholder": "輸入您的召喚師名稱",
+      "gameId": "遊戲ID",
+      "gameIdPlaceholder": "輸入遊戲ID",
+      "gameDate": "遊戲日期",
+      "gameTime": "遊戲時間",
+      "gameDuration": "持續時間",
+      "minutes": "分鐘",
+      "hour": "小時",
+      "hours": "小時",
+      "startTime": "開始時間",
+      "expectGameDate": "預計遊戲日期",
+      "expectStartTime": "預計開始時間",
+      "expectGameDuration": "預計持續時間"
+    }
+  }
+} 
