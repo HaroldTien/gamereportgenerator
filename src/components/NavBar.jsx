@@ -1,6 +1,7 @@
 // NavBar.jsx
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 function NavBar() {
@@ -27,14 +28,14 @@ function NavBar() {
     <nav className="navbar">
       <div className="nav-content">
         <div className="nav-links">
-          <a href="/">{t('nav.home')}</a>
-          <a href="/about">{t('nav.about')}</a>
-          <a href="/contact">{t('nav.contact')}</a>
+          <Link to="/">{t('nav.home')}</Link>
+          <Link to="/about">{t('nav.about')}</Link>
+          <Link to="/contact">{t('nav.contact')}</Link>
         </div>
         
         <div className="nav-actions">
-          <button className="auth-button login">{t('nav.login')}</button>
-          <button className="auth-button signup">{t('nav.signup')}</button>
+          <Link to="/login" className="auth-button login">{t('nav.login')}</Link>
+          <Link to="/signup" className="auth-button signup">{t('nav.signup')}</Link>
           
           <div className={`language-dropdown ${isOpen ? 'open' : ''}`}>
             <button 
