@@ -112,7 +112,8 @@
     "contact": {
       "title": "聯絡我們",
       "description": "有問題、建議或回饋嗎？我們很樂意聆聽！",
-      "button": "發送郵件"
+      "button": "發送郵件",
+      "email": "郵件"
     }
   }
 } 

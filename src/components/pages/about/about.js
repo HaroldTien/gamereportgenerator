@@ -46,10 +46,8 @@ function About() {
 
         <section className="contact-section">
           <h2>{t('about.contact.title')}</h2>
-          <p>{t('about.contact.description')}</p>
-          <a href="mailto:your-email@example.com" className="contact-button">
-            {t('about.contact.button')}
-          </a>
+          <p><i className="fas fa-envelope"></i> {t('about.contact.email')}: <a href="mailto:a142758369@gmail.com">a142758369@gmail.com</a></p>
+
         </section>
       </div>
     </div>

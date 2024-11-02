@@ -30,7 +30,7 @@ function NavBar() {
         <div className="nav-links">
           <Link to="/">{t('nav.home')}</Link>
           <Link to="/about">{t('nav.about')}</Link>
-          <Link to="/contact">{t('nav.contact')}</Link>
+          {/* <Link to="/contact">{t('nav.contact')}</Link> */}
         </div>
         
         <div className="nav-actions">
