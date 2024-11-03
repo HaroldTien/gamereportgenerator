@@ -83,6 +83,56 @@
       "hour": "hour",
       "hours": "hours",
       "startTime": "Start Time"
+    },
+    "purposes": {
+      "title": "What's your purpose?",
+      "askToPlay": "Play Together",
+      "askPermission": "Ask Permission",
+      "sharePlaying": "Share Gaming"
+    },
+    "purposeDetails": {
+      "askToPlay": {
+        "gf": {
+          "planning": "Write a sweet invitation to ask your girlfriend to play games together",
+          "concluded": "Write about the fun gaming session you just had with your girlfriend"
+        },
+        "dad": {
+          "planning": "Write a friendly invitation to ask your dad to play games together",
+          "concluded": "Write about the gaming session you just enjoyed with your dad"
+        },
+        "mom": {
+          "planning": "Write a warm invitation to ask your mom to play games together",
+          "concluded": "Write about the gaming session you just enjoyed with your mom"
+        }
+      },
+      "askPermission": {
+        "gf": {
+          "planning": "Write a sweet request asking your girlfriend for permission to play games",
+          "concluded": "Thank your girlfriend for letting you play games this time"
+        },
+        "dad": {
+          "planning": "Write a respectful request asking your dad for permission to play games",
+          "concluded": "Thank your dad for letting you play games this time"
+        },
+        "mom": {
+          "planning": "Write a polite request asking your mom for permission to play games",
+          "concluded": "Thank your mom for letting you play games this time"
+        }
+      },
+      "sharePlaying": {
+        "gf": {
+          "planning": "Share your upcoming gaming plans with your girlfriend",
+          "concluded": "Share your gaming experience with your girlfriend"
+        },
+        "dad": {
+          "planning": "Share your upcoming gaming plans with your dad",
+          "concluded": "Share your gaming experience with your dad"
+        },
+        "mom": {
+          "planning": "Share your upcoming gaming plans with your mom",
+          "concluded": "Share your gaming experience with your mom"
+        }
+      }
     }
   },
   "about": {

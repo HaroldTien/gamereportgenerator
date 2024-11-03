@@ -86,6 +86,56 @@
       "expectGameDate": "预计游戏日期",
       "expectStartTime": "预计开始时间",
       "expectGameDuration": "预计持续时间"
+    },
+    "purposes": {
+      "title": "您的目的是什么？",
+      "askToPlay": "一起玩游戏",
+      "askPermission": "请求许可",
+      "sharePlaying": "分享游戏"
+    },
+    "purposeDetails": {
+      "askToPlay": {
+        "gf": {
+          "planning": "写一个温馨的邀请来邀请女朋友一起玩游戏",
+          "concluded": "描述你和女朋友刚刚一起玩游戏的愉快时光"
+        },
+        "dad": {
+          "planning": "写一个友善的邀请来邀请爸爸一起玩游戏",
+          "concluded": "描述你和爸爸刚刚一起玩游戏的愉快时光"
+        },
+        "mom": {
+          "planning": "写一个温暖的邀请来邀请妈妈一起玩游戏",
+          "concluded": "描述你和妈妈刚刚一起玩游戏的愉快时光"
+        }
+      },
+      "askPermission": {
+        "gf": {
+          "planning": "写一个温柔的请求来向女朋友询问玩游戏的许可",
+          "concluded": "感谢女朋友这次让你玩游戏"
+        },
+        "dad": {
+          "planning": "写一个恭敬的请求来向爸爸询问玩游戏的许可",
+          "concluded": "感谢爸爸这次让你玩游戏"
+        },
+        "mom": {
+          "planning": "写一个礼貌的请求来向妈妈询问玩游戏的许可",
+          "concluded": "感谢妈妈这次让你玩游戏"
+        }
+      },
+      "sharePlaying": {
+        "gf": {
+          "planning": "与女朋友分享你即将进行的游戏计划",
+          "concluded": "与女朋友分享你的游戏体验"
+        },
+        "dad": {
+          "planning": "与爸爸分享你即将进行的游戏计划",
+          "concluded": "与爸爸分享你的游戏体验"
+        },
+        "mom": {
+          "planning": "与妈妈分享你即将进行的游戏计划",
+          "concluded": "与妈妈分享你的游戏体验"
+        }
+      }
     }
   },
   "about": {

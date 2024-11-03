@@ -28,7 +28,7 @@
       }
     },
     "features": {
-      "title": "功能特點",
+      "title": "��能特點",
       "list": {
         "1": "簡單易用的界面",
         "2": "可自定義的報告格式",
@@ -86,6 +86,56 @@
       "expectGameDate": "預計遊戲日期",
       "expectStartTime": "預計開始時間",
       "expectGameDuration": "預計持續時間"
+    },
+    "purposes": {
+      "title": "您的目的是什麼？",
+      "askToPlay": "一起玩遊戲",
+      "askPermission": "請求許可",
+      "sharePlaying": "分享遊戲"
+    },
+    "purposeDetails": {
+      "askToPlay": {
+        "gf": {
+          "planning": "寫一個溫馨的邀請來邀請女朋友一起玩遊戲",
+          "concluded": "描述你和女朋友剛剛一起玩遊戲的愉快時光"
+        },
+        "dad": {
+          "planning": "寫一個友善的邀請來邀請爸爸一起玩遊戲",
+          "concluded": "描述你和爸爸剛剛一起玩遊戲的愉快時光"
+        },
+        "mom": {
+          "planning": "寫一個溫暖的邀請來邀請媽媽一起玩遊戲",
+          "concluded": "描述你和媽媽剛剛一起玩遊戲的愉快時光"
+        }
+      },
+      "askPermission": {
+        "gf": {
+          "planning": "寫一個溫柔的請求來向女朋友詢問玩遊戲的許可",
+          "concluded": "感謝女朋友這次讓你玩遊戲"
+        },
+        "dad": {
+          "planning": "寫一個恭敬的請求來向爸爸詢問玩遊戲的許可",
+          "concluded": "感謝爸爸這次讓你玩遊戲"
+        },
+        "mom": {
+          "planning": "寫一個禮貌的請求來向媽媽詢問玩遊戲的許可",
+          "concluded": "感謝媽媽這次讓你玩遊戲"
+        }
+      },
+      "sharePlaying": {
+        "gf": {
+          "planning": "與女朋友分享你即將進行的遊戲計畫",
+          "concluded": "與女朋友分享你的遊戲體驗"
+        },
+        "dad": {
+          "planning": "與爸爸分享你即將進行的遊戲計畫",
+          "concluded": "與爸爸分享你的遊戲體驗"
+        },
+        "mom": {
+          "planning": "與媽媽分享你即將進行的遊戲計畫",
+          "concluded": "與媽媽分享你的遊戲體驗"
+        }
+      }
     }
   },
   "about": {

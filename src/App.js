@@ -4,7 +4,7 @@ import NavBar from './components/NavBar';
 import Home from './components/pages/Home/Home';
 import About from './components/pages/about/about';
 import GetStarted from './components/pages/Get-started/Get-started';
-import LogIn from './components/pages/Log-in/LogIn';
+// import LogIn from './components/pages/Log-in/LogIn';
   
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/get-started" element={<GetStarted />} />
-          <Route path="/login" element={<LogIn />} />
+          {/* <Route path="/login" element={<LogIn />} /> */}
         </Routes>
       </div>
     </Router>
