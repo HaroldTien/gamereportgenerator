@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "概要",
+    "contact": "お問い合わせ",
+    "login": "ログイン",
+    "signup": "新規登録",
+    "language": {
+      "en": "英語",
+      "zh-TW": "繁体字中国語",
+      "zh-CN": "簡体字中国語",
+      "jp": "日本語",
+      "ko": "韓国語"
+    }
+  },
+  "home": {
+    "welcome": "ゲームレポート生成ツールへようこそ",
+    "about": {
+      "title": "このツールについて",
+      "description": "ゲームレポート生成ツールは、ゲームセッションのレポートを作成するお手伝いをします。恋人や両親にゲームのプレイ許可を求めたり、ゲームの楽しさや達成感を共有したりする際に、ゲームの詳細や統計情報を簡単に記録し、整理することができます。"
+    },
+    "howToUse": {
+      "title": "使用方法",
+      "steps": {
+        "1": "上部のナビゲーションバーから「レポート作成」セクションに移動",
+        "2": "記録したいゲームセッションのタイトルを入力",
+        "3": "ゲームをプレイした日付を選択",
+        "4": "提供されたテキストエリアに詳細なプレイヤー統計を入力",
+        "5": "「レポート作成」をクリックして整形されたレポートを作成"
+      }
+    },
+    "features": {
+      "title": "機能",
+      "list": {
+        "1": "使いやすいインターフェース",
+        "2": "カスタマイズ可能なレポート形式",
+        "3": "プレイヤー統計の追跡",
+        "4": "即時レポート生成"
+      }
+    },
+    "getStarted": "始める"
+  },
+  "getStarted": {
+    "title": "レポート作成を開始",
+    "gameSelection": {
+      "title": "ゲームを選択"
+    },
+    "games": {
+      "pubg": "PUBG",
+      "lol": "League of Legends"
+    },
+    "reportType": {
+      "title": "レポートタイプ",
+      "concluded": "プレイ済み",
+      "planning": "プレイ予定"
+    },
+    "gameDetails": {
+      "gameId": "ゲームID",
+      "summonerName": "サモナー名",
+      "gameIdPlaceholder": "ゲームIDを入力",
+      "gameDate": "プレイ日",
+      "expectGameDate": "予定日",
+      "startTime": "開始時間",
+      "expectStartTime": "予定開始時間",
+      "gameDuration": "プレイ時間",
+      "expectGameDuration": "予定プレイ時間",
+      "minutes": "分",
+      "hour": "時間",
+      "hours": "時間"
+    },
+    "audience": {
+      "title": "対象者"
+    },
+    "audiences": {
+      "gf": "恋人",
+      "dad": "父親",
+      "mom": "母親"
+    },
+    "purposes": {
+      "title": "目的",
+      "askToPlay": "プレイの許可を求める",
+      "askPermission": "時間延長の許可を求める",
+      "sharePlaying": "プレイ内容を共有"
+    },
+    "purposeDetails": {
+      "askToPlay": {
+        "gf": {
+          "planning": "恋人にゲームプレイの許可を求めます"
+        },
+        "dad": {
+          "planning": "父親にゲームプレイの許可を求めます"
+        },
+        "mom": {
+          "planning": "母親にゲームプレイの許可を求めます"
+        }
+      },
+      "askPermission": {
+        "gf": {
+          "planning": "恋人にプレイ時間の延長を求めます"
+        },
+        "dad": {
+          "planning": "父親にプレイ時間の延長を求めます"
+        },
+        "mom": {
+          "planning": "母親にプレイ時間の延長を求めます"
+        }
+      },
+      "sharePlaying": {
+        "gf": {
+          "concluded": "恋人とプレイ内容を共有します"
+        },
+        "dad": {
+          "concluded": "父親とプレイ内容を共有します"
+        },
+        "mom": {
+          "concluded": "母親とプレイ内容を共有します"
+        }
+      }
+    },
+    "customNeeds": {
+      "title": "追加要望",
+      "placeholder": "その他の要望があればこちらに入力してください..."
+    },
+    "generate": "レポート生成"
+  },
+  "about": {
+    "title": "私たちについて",
+    "purpose": {
+      "title": "目的",
+      "description": "ゲーマーとその大切な人々とのコミュニケーションを促進することを目指しています。"
+    },
+    "features": {
+      "title": "主な機能",
+      "item1": "カスタマイズ可能なレポート",
+      "item2": "複数言語対応",
+      "item3": "使いやすいインターフェース",
+      "item4": "詳細な統計情報",
+      "item5": "即時レポート生成"
+    },
+    "team": {
+      "title": "チーム"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "email": "メールアドレス"
+    }
+  }
+}

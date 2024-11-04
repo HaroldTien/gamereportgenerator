@@ -11,7 +11,9 @@ function NavBar() {
   const languages = [
     { code: 'en', name: 'English' },
     { code: 'zh-TW', name: '繁體中文' },
-    { code: 'zh-CN', name: '简体中文' }
+    { code: 'zh-CN', name: '简体中文' },
+    { code: 'jp', name: '日本語' },
+    { code: 'ko', name: '한국어' }
   ];
 
   const changeLanguage = (langCode) => {

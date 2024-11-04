@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "home": "홈",
+    "about": "소개",
+    "contact": "문의",
+    "login": "로그인",
+    "signup": "회원가입",
+    "language": {
+      "en": "영어",
+      "zh-TW": "번체 중국어",
+      "zh-CN": "간체 중국어",
+      "jp": "일본어",
+      "ko": "한국어"
+    }
+  },
+  "home": {
+    "welcome": "게임 리포트 생성기에 오신 것을 환영합니다",
+    "about": {
+      "title": "도구 소개",
+      "description": "게임 리포트 생성기는 게임 세션에 대한 보고서를 만드는 데 도움을 줍니다. 여자친구나 부모님께 게임 허가를 요청하거나, 게임의 즐거움과 성취를 공유하고 싶을 때, 이 도구를 사용하여 게임 세부 정보와 통계를 쉽게 기록하고 정리할 수 있습니다."
+    },
+    "howToUse": {
+      "title": "사용 방법",
+      "steps": {
+        "1": "상단 네비게이션 바에서 \"리포트 생성\" 섹션으로 이동",
+        "2": "기록하고 싶은 게임 세션의 제목 입력",
+        "3": "게임을 진행한 날짜 선택",
+        "4": "제공된 텍스트 영역에 자세한 플레이어 통계 입력",
+        "5": "\"리포트 생성\"을 클릭하여 형식화된 보고서 생성"
+      }
+    },
+    "features": {
+      "title": "기능",
+      "list": {
+        "1": "사용하기 쉬운 인터페이스",
+        "2": "맞춤 설정 가능한 보고서 형식",
+        "3": "플레이어 통계 추적",
+        "4": "즉시 보고서 생성"
+      }
+    },
+    "getStarted": "시작하기"
+  },
+  "getStarted": {
+    "title": "리포트 작성 시작",
+    "gameSelection": {
+      "title": "게임 선택"
+    },
+    "games": {
+      "pubg": "PUBG",
+      "lol": "리그 오브 레전드"
+    },
+    "reportType": {
+      "title": "리포트 유형",
+      "concluded": "플레이 완료",
+      "planning": "플레이 예정"
+    },
+    "gameDetails": {
+      "gameId": "게임 ID",
+      "summonerName": "소환사 이름",
+      "gameIdPlaceholder": "게임 ID를 입력하세요",
+      "gameDate": "플레이 날짜",
+      "expectGameDate": "예정 날짜",
+      "startTime": "시작 시간",
+      "expectStartTime": "예정 시작 시간",
+      "gameDuration": "플레이 시간",
+      "expectGameDuration": "예상 플레이 시간",
+      "minutes": "분",
+      "hour": "시간",
+      "hours": "시간"
+    },
+    "audience": {
+      "title": "대상자"
+    },
+    "audiences": {
+      "gf": "여자친구",
+      "dad": "아버지",
+      "mom": "어머니"
+    },
+    "purposes": {
+      "title": "목적",
+      "askToPlay": "게임 허가 요청",
+      "askPermission": "시간 연장 요청",
+      "sharePlaying": "플레이 내용 공유"
+    },
+    "purposeDetails": {
+      "askToPlay": {
+        "gf": {
+          "planning": "여자친구에게 게임 플레이 허가를 요청합니다"
+        },
+        "dad": {
+          "planning": "아버지께 게임 플레이 허가를 요청합니다"
+        },
+        "mom": {
+          "planning": "어머니께 게임 플레이 허가를 요청합니다"
+        }
+      },
+      "askPermission": {
+        "gf": {
+          "planning": "여자친구에게 플레이 시간 연장을 요청합니다"
+        },
+        "dad": {
+          "planning": "아버지께 플레이 시간 연장을 요청합니다"
+        },
+        "mom": {
+          "planning": "어머니께 플레이 시간 연장을 요청합니다"
+        }
+      },
+      "sharePlaying": {
+        "gf": {
+          "concluded": "여자친구와 플레이 내용을 공유합니다"
+        },
+        "dad": {
+          "concluded": "아버지와 플레이 내용을 공유합니다"
+        },
+        "mom": {
+          "concluded": "어머니와 플레이 내용을 공유합니다"
+        }
+      }
+    },
+    "customNeeds": {
+      "title": "추가 요구사항",
+      "placeholder": "추가 요구사항이 있다면 여기에 입력하세요..."
+    },
+    "generate": "리포트 생성"
+  },
+  "about": {
+    "title": "소개",
+    "purpose": {
+      "title": "목적",
+      "description": "게이머와 그들의 소중한 사람들 간의 소통을 촉진하는 것을 목표로 합니다."
+    },
+    "features": {
+      "title": "주요 기능",
+      "item1": "맞춤형 리포트",
+      "item2": "다국어 지원",
+      "item3": "사용하기 쉬운 인터페이스",
+      "item4": "상세한 통계 정보",
+      "item5": "즉시 리포트 생성"
+    },
+    "team": {
+      "title": "팀 소개"
+    },
+    "contact": {
+      "title": "문의하기",
+      "email": "이메일"
+    }
+  }
+}

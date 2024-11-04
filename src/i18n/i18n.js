@@ -5,6 +5,8 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import enTranslations from './translations/en.json';
 import zhTWTranslations from './translations/zh-TW.json';
 import zhCNTranslations from './translations/zh-CN.json';
+import jpTranslations from './translations/jp.json';
+import koTranslations from './translations/ko.json';
 
 i18n
   .use(LanguageDetector)
@@ -20,10 +22,16 @@ i18n
       },
       'zh-CN': {
         translation: zhCNTranslations
+      },
+      jp: {
+        translation: jpTranslations
+      },
+      ko: {
+        translation: koTranslations
       }
     },
     fallbackLng: 'en',
-    supportedLngs: ['en', 'zh-TW', 'zh-CN'],
+    supportedLngs: ['en', 'zh-TW', 'zh-CN', 'jp', 'ko'],
     interpolation: {
       escapeValue: false
     },
