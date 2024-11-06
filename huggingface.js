@@ -1,12 +1,24 @@
-import Replicate from "replicate";
-const replicate = new Replicate();
+const axios = require('axios');
 
-const input = {
-    prompt: "hello"
-};
+const API_URL = 'https://api-inference.huggingface.co/models/OrionStarAI/Orion-14B-Base';
+const API_TOKEN = 'your_huggingface_api_token'; // Replace with your actual token
 
-for await (const event of replicate.stream("01-ai/yi-34b-chat:914692bbe8a8e2b91a4e44203e70d170c9c5ccc1359b283c84b0ec8d47819a46", { input })) {
-  process.stdout.write(`${event}`)
-  //=> ""
-};
-process.stdout.write("\n");
+async function generateText(prompt) {
+  try {
+    const response = await axios.post(
+      API_URL,
+      { inputs: prompt },
+      {
+        headers: {
+          Authorization: `Bearer ${API_TOKEN}`,
+        },
+      }
+    );
+    console.log(response.data);
+  } catch (error) {
+    console.error('Error generating text:', error);
+  }
+}
+
+// Example usage  
+generateText('Translate the following English text to French: "Hello, how are you?"');

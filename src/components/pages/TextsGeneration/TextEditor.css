@@ -1,0 +1,77 @@
+.text-editor {
+  padding: 2rem;
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.text-editor h2 {
+  font-family: 'Rajdhani', sans-serif;
+  color: #1a1c20;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.editor-textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border: 2px solid #f9cb28;
+  border-radius: 8px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.2rem;
+  resize: vertical;
+  min-height: 400px;
+  height: 60vh;
+  margin-bottom: 2rem;
+  transition: all 0.2s ease;
+  line-height: 1.6;
+}
+
+.editor-textarea:focus {
+  outline: none;
+  border-color: #ff4d4d;
+  box-shadow: 0 0 0 3px rgba(255, 77, 77, 0.1);
+}
+
+.submit-button {
+  background: linear-gradient(90deg, #ff4d4d, #f9cb28);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.submit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button:active {
+  transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .text-editor {
+    padding: 1rem;
+    width: 95%;
+  }
+
+  .text-editor h2 {
+    font-size: 1.5rem;
+  }
+
+  .editor-textarea {
+    min-height: 300px;
+    height: 50vh;
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+} 

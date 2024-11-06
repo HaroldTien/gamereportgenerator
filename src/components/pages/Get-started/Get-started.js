@@ -2,10 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import RenderTimeGroup from './RenderTimeGroup.jsx';
 import RenderSpecificPurpose from './RenderSpecificPurpose.jsx';
+import {useNavigate} from 'react-router-dom';
 import './Get-started.css';
 
 function GetStarted() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const [selectedGame, setSelectedGame] = useState('');
   const [reportType, setReportType] = useState('');
   const [audience, setAudience] = useState({
@@ -30,6 +32,20 @@ function GetStarted() {
 
   const games = ['pubg', 'lol'];
   const audiences = ['gf', 'dad', 'mom'];
+
+  const handleGenerateReport = () => {
+    // Store parameters in localStorage before navigating
+    const params = {
+      gameDetails,
+      reportType,
+      audience,
+      customNeeds,
+      selectedGame
+    };
+    console.log(params);
+    localStorage.setItem('reportParams', JSON.stringify(params));
+    navigate('/text-editor');
+  };
 
   const handleGameDetailsChange = (field, value) => {
     setGameDetails(prev => ({
@@ -151,14 +167,7 @@ function GetStarted() {
 
 
 
-      <button className="generate-button" 
-      onClick={()=>{
-        console.log(gameDetails);
-        console.log(reportType);
-        console.log(audience);
-        console.log(customNeeds);
-        console.log(selectedGame);
-      }}>
+      <button className="generate-button" onClick={handleGenerateReport}>
         {t('getStarted.generate')}
       </button>
     </div>

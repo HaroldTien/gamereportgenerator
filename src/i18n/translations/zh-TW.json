@@ -28,7 +28,7 @@
       }
     },
     "features": {
-      "title": "��能特點",
+      "title": "功能能特點",
       "list": {
         "1": "簡單易用的界面",
         "2": "可自定義的報告格式",
@@ -78,13 +78,13 @@
       "gameIdPlaceholder": "輸入遊戲ID",
       "gameDate": "遊戲日期",
       "gameTime": "遊戲時間",
-      "gameDuration": "持續時間",
+      "gameDuration": "遊戲時長",
       "minutes": "分鐘",
       "hour": "小時",
       "hours": "小時",
       "startTime": "開始時間",
-      "expectGameDate": "預計遊戲日期",
-      "expectStartTime": "預計開始時間",
+      "expectGameDate": "預期遊戲日期",
+      "expectStartTime": "預期開始時間",
       "expectGameDuration": "預計持續時間"
     },
     "purposes": {
@@ -165,5 +165,10 @@
       "button": "發送郵件",
       "email": "郵件"
     }
+  },
+  "textEditor": {
+    "title": "文字編輯器",
+    "placeholder": "在此輸入文字...",
+    "submit": "提交"
   }
 } 

@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import Home from './components/pages/Home/Home';
 import About from './components/pages/about/about';
 import GetStarted from './components/pages/Get-started/Get-started';
+import TextEditor from './components/pages/TextsGeneration/TextEdtior';
 // import LogIn from './components/pages/Log-in/LogIn';
   
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/get-started" element={<GetStarted />} />
+          <Route path="/text-editor" element={<TextEditor />} />
           {/* <Route path="/login" element={<LogIn />} /> */}
         </Routes>
       </div>

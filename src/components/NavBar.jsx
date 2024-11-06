@@ -36,8 +36,8 @@ function NavBar() {
         </div>
         
         <div className="nav-actions">
-          <Link to="/login" className="auth-button login">{t('nav.login')}</Link>
-          <Link to="/signup" className="auth-button signup">{t('nav.signup')}</Link>
+          {/* <Link to="/login" className="auth-button login">{t('nav.login')}</Link>
+          <Link to="/signup" className="auth-button signup">{t('nav.signup')}</Link> */}
           
           <div className={`language-dropdown ${isOpen ? 'open' : ''}`}>
             <button 
