@@ -48,7 +48,8 @@ class ReportService {
     const outputLanguage = this.getLanguageFromI18n();
     let prompt = '';
     if (selectedGame === 'lol') {
-        prompt = `Generate a ${commandCovertion.reportType[reportType]} League of Legends game report in ${outputLanguage}. ` +
+        prompt = `You must respond only in ${outputLanguage}. ` +
+                 `Generate a ${commandCovertion.reportType[reportType]} League of Legends game report. ` +
                  `Summoner Name: ${gameDetails.gameId}. ` +
                  `Game Date: ${gameDetails.gameDate}. ` +
                  `Game Duration: ${gameDetails.gameDuration} hours. ` +
@@ -58,7 +59,8 @@ class ReportService {
                  `Special Requirements: ${customNeeds} ` +
                  `Please write a detailed ${reportType} report in ${outputLanguage} for a League of Legends game that is appropriate for ${commandCovertion.audience[audience.person]}.`;
     } else if (selectedGame === 'pubg') {
-        prompt = `Generate a ${commandCovertion.reportType[reportType]} PUBG game report. ` + 
+        prompt = `You must respond only in ${outputLanguage}. ` +
+                 `Generate a ${commandCovertion.reportType[reportType]} PUBG game report. ` +
                  `Player ID: ${gameDetails.gameId}. ` +
                  `Game Date: ${gameDetails.gameDate}. ` +
                  `Game Duration: ${gameDetails.gameDuration} hours. ` +

@@ -85,7 +85,7 @@ const TextEditor = () => {
 
     return (
         <div className="text-editor">
-        <h2>{t('textEditor.title', 'Text Editor')}</h2>
+        {/* <h2>{t('textEditor.title', 'Text Editor')}</h2> */}
         {isLoading ? <LoadingAnimation /> : (
         <form onSubmit={handleSubmit}>
             <textarea

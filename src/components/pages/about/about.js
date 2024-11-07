@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import GreatLeaderImage from '../../../resources/pictures/GreatLeader.png';
 import './about.css';
 
 function About() {
@@ -30,16 +31,13 @@ function About() {
           <h2>{t('about.team.title')}</h2>
           <div className="team-members">
             <div className="team-member">
-              <h3>John Doe</h3>
-              <p>Lead Developer</p>
-            </div>
-            <div className="team-member">
-              <h3>Jane Smith</h3>
-              <p>Frontend Developer</p>
-            </div>
-            <div className="team-member">
-              <h3>Mike Johnson</h3>
-              <p>Backend Developer</p>
+              <h3>{t('about.team.member1.name')}</h3>
+              <p>{t('about.team.member1.role')}</p>
+              <img 
+                src={GreatLeaderImage} 
+                alt="Developer Profile" 
+                className="team-member-photo"
+              />
             </div>
           </div>
         </section>

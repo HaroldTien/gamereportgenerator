@@ -8,7 +8,9 @@
     "language": {
       "en": "English",
       "zh-TW": "Traditional Chinese",
-      "zh-CN": "Simplified Chinese"
+      "zh-CN": "Simplified Chinese",
+      "jp": "Japanese",
+      "ko": "Korean"
     }
   },
   "home": {
@@ -138,23 +140,23 @@
     }
   },
   "about": {
-    "title": "About Game Report Generator",
+    "title": "About Greport",
     "purpose": {
       "title": "Our Purpose",
-      "description": "Game Report Generator is designed to bridge the communication gap between gamers and their loved ones. We understand the challenge of explaining your gaming passion to others, so we've created a tool that helps you generate comprehensive, easy-to-understand game reports."
+      "description": "Game Report Generator aims to bridge the communication gap between gamers and their loved ones. We understand the challenge of explaining gaming passion to others, so we've developed this tool to help you generate fun game reports. The generated reports are purely for entertainment purposes, please don't take them too seriously."
     },
     "features": {
       "title": "Key Features",
       "item1": "Customizable report templates for different audiences",
       "item2": "Support for multiple popular games",
       "item3": "Multi-language support (English, Traditional Chinese, Simplified Chinese)",
-      "item4": "Detailed game statistics and achievements tracking",
+      "item4": "Detailed game statistics and achievements tracking (In Development)",
       "item5": "User-friendly interface for quick report generation"
     },
     "team": {
       "title": "Development Team",
       "member1": {
-        "name": "Your Name",
+        "name": "Great Leader",
         "role": "Lead Developer & Designer"
       }
     },
@@ -169,5 +171,8 @@
     "title": "Text Editor",
     "placeholder": "Enter your text here...",
     "submit": "Submit"
+  },
+  "loading": {
+    "generating": "Generating report... It could take a while..."
   }
 } 
