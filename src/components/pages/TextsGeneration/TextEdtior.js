@@ -35,9 +35,9 @@ const TextEditor = () => {
         setIsLoading(true);
         try {
             if (inputParams) {
-                const { gameDetails, reportType, audience, customNeeds, selectedGame } = inputParams;
-                
-                // Validate all required parameters are present
+                const { gameDetails, reportType, audience, selectedGame } = inputParams;
+                let { customNeeds } = inputParams;
+                if(customNeeds === '') customNeeds = 'None';
                 if (!gameDetails || !reportType || !audience || !customNeeds || !selectedGame) {
                     console.error('Missing required parameters:', { gameDetails, reportType, audience, customNeeds, selectedGame });
                     return;

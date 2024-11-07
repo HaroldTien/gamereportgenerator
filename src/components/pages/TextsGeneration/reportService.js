@@ -48,25 +48,25 @@ class ReportService {
     const outputLanguage = this.getLanguageFromI18n();
     let prompt = '';
     if (selectedGame === 'lol') {
-        prompt = `Generate a ${reportType} League of Legends game report in ${outputLanguage}. ` +
+        prompt = `Generate a ${commandCovertion.reportType[reportType]} League of Legends game report in ${outputLanguage}. ` +
                  `Summoner Name: ${gameDetails.gameId}. ` +
                  `Game Date: ${gameDetails.gameDate}. ` +
                  `Game Duration: ${gameDetails.gameDuration} hours. ` +
                  `Time: ${gameDetails.startTime}. ` +
-                 `Writing for: ${audience.person}. ` +
-                 `Purpose: ${audience.purpose}. ` +
+                 `Writing for: ${commandCovertion.audience[audience.person]}. ` +
+                 `Purpose: ${commandCovertion.purpose[audience.purpose]}. ` +
                  `Special Requirements: ${customNeeds} ` +
-                 `Please write a detailed ${reportType} report in ${outputLanguage} for a League of Legends game that is appropriate for ${audience.person}.`;
+                 `Please write a detailed ${reportType} report in ${outputLanguage} for a League of Legends game that is appropriate for ${commandCovertion.audience[audience.person]}.`;
     } else if (selectedGame === 'pubg') {
-        prompt = `Generate a ${reportType} PUBG game report. ` + 
+        prompt = `Generate a ${commandCovertion.reportType[reportType]} PUBG game report. ` + 
                  `Player ID: ${gameDetails.gameId}. ` +
                  `Game Date: ${gameDetails.gameDate}. ` +
                  `Game Duration: ${gameDetails.gameDuration} hours. ` +
                  `Time: ${gameDetails.startTime}. ` +
-                 `Writing for: ${audience.person}. ` +
-                 `Purpose: ${audience.purpose}. ` +
+                 `Writing for: ${commandCovertion.audience[audience.person]}. ` +
+                 `Purpose: ${commandCovertion.purpose[audience.purpose]}. ` +
                  `Special Requirements: ${customNeeds}. ` +
-                 `Please write a detailed ${reportType} report in ${outputLanguage} for a PUBG game that is appropriate for ${audience.person}.`;
+                 `Please write a detailed ${reportType} report in ${outputLanguage} for a PUBG game that is appropriate for my ${commandCovertion.audience[audience.person] }.`;
     }
     return prompt;
   }
@@ -90,6 +90,7 @@ class ReportService {
           repetition_penalty: 1.15
         }
       });
+      console.log("the response is: ", response.generated_text);
       return response.generated_text;
     } catch (error) {
       console.error('Error in report generation:', error);

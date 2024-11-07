@@ -33,8 +33,30 @@ function GetStarted() {
   const games = ['pubg', 'lol'];
   const audiences = ['gf', 'dad', 'mom'];
 
+  const isFormValid = () => {
+    // Basic validation
+    if (!selectedGame) return false;
+    if (!reportType) return false;
+    if (!audience.person || !audience.purpose) return false;
+    
+    // Game specific validation
+    if (selectedGame === 'lol' || selectedGame === 'pubg') {
+      if (!gameDetails.gameId.trim()) return false;
+      if (!gameDetails.gameDate) return false;
+      if (!gameDetails.startTime) return false;
+      if (!gameDetails.gameDuration) return false;
+    }
+    
+    return true;
+  };
+
   const handleGenerateReport = () => {
-    // Store parameters in localStorage before navigating
+    if (!isFormValid()) {
+      alert(t('getStarted.validation.error'));
+      return;
+    }
+
+    // Existing code for storing parameters
     const params = {
       gameDetails,
       reportType,
@@ -167,7 +189,11 @@ function GetStarted() {
 
 
 
-      <button className="generate-button" onClick={handleGenerateReport}>
+      <button 
+        className={`generate-button ${!isFormValid() ? 'disabled' : ''}`} 
+        onClick={handleGenerateReport}
+        disabled={!isFormValid()}
+      >
         {t('getStarted.generate')}
       </button>
     </div>

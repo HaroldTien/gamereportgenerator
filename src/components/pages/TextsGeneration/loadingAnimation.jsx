@@ -5,8 +5,7 @@ const LoadingAnimation = () => {
   return (
     <div className="loading-container">
       <div className="loading-spinner"></div>
-      <p>Generating report...</p>
-      <p>It could take a while...</p>
+      <p>Generating report... It could take a while...</p>
     </div>
   );
 };
