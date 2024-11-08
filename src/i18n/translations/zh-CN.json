@@ -136,6 +136,9 @@
           "concluded": "与妈妈分享你的游戏体验"
         }
       }
+    },
+    "validation": {
+      "error": "请填写所有必填字段"
     }
   },
   "about": {

@@ -137,6 +137,9 @@
           "concluded": "Share your gaming experience with your mom"
         }
       }
+    },
+    "validation": {
+      "error": "Please fill in all required fields"
     }
   },
   "about": {

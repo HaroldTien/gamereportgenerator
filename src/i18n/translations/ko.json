@@ -147,5 +147,10 @@
   },
   "loading": {
     "generating": "리포트 생성 중... 잠시만 기다려 주세요..."
+  },
+  "textEditor": {
+    "title": "텍스트 에디터",
+    "placeholder": "여기에 텍스트를 입력하세요...",
+    "submit": "제출"
   }
 }

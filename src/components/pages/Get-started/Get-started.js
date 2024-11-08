@@ -76,6 +76,10 @@ function GetStarted() {
     }));
   };
 
+  const renderGameParticipantsFields = () => {
+
+  };
+
   const renderGameSpecificFields = () => {
     if (!selectedGame || !reportType) return null;
 

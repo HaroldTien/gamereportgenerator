@@ -73,6 +73,15 @@ const TextEditor = () => {
         console.log('Submitted text:', text);
     };
 
+    const handleCopy = () => {
+        navigator.clipboard.writeText(text)
+            .then(() => {
+                console.log('Text copied successfully');
+            })
+            .catch(err => {
+                console.error('Failed to copy text:', err);
+            });
+    };
     useEffect(() => {
         handleGetInputParams();
     }, []);
@@ -88,16 +97,25 @@ const TextEditor = () => {
         {/* <h2>{t('textEditor.title', 'Text Editor')}</h2> */}
         {isLoading ? <LoadingAnimation /> : (
         <form onSubmit={handleSubmit}>
-            <textarea
-            value={text}
-            onChange={handleTextChange}
-            placeholder={t('textEditor.placeholder', 'Enter your text here...')}
-            rows={10}
-            className="editor-textarea"
-            />
-            <button type="submit" className="submit-button">
-            {t('textEditor.submit', 'Submit')}
+            <div className="textarea-container">
+                <button 
+                    type="button" 
+                    className="copy-button"
+                    onClick={handleCopy}
+                >
+                    {t('textEditor.copy', 'Copy')}
                 </button>
+                <textarea
+                    value={text}
+                    onChange={handleTextChange}
+                    placeholder={t('textEditor.placeholder', 'Enter your text here...')}
+                    rows={10}
+                    className="editor-textarea"
+                />
+            </div>
+            <button type="submit" className="submit-button">
+                {t('textEditor.submit', 'Submit')}
+            </button>
             </form>
         )}
         </div>

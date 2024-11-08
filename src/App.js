@@ -6,8 +6,19 @@ import About from './components/pages/about/about';
 import GetStarted from './components/pages/Get-started/Get-started';
 import TextEditor from './components/pages/TextsGeneration/TextEdtior';
 // import LogIn from './components/pages/Log-in/LogIn';
+import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
   
 function App() {
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    const savedLang = localStorage.getItem('userLanguage');
+    if (savedLang) {
+      i18n.changeLanguage(savedLang);
+    }
+  }, [i18n]);
+
   return (
     <Router>
       <div className="App">

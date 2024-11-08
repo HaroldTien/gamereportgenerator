@@ -1,12 +1,16 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
 import enTranslations from './translations/en.json';
 import zhTWTranslations from './translations/zh-TW.json';
 import zhCNTranslations from './translations/zh-CN.json';
 import jpTranslations from './translations/jp.json';
 import koTranslations from './translations/ko.json';
 
+const savedLanguage = localStorage.getItem('userLanguage') || 'zh-TW';
+
 i18n
+  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources: {
@@ -26,11 +30,22 @@ i18n
         translation: koTranslations
       }
     },
-    lng: 'en', // default language
-    fallbackLng: 'en',
+    lng: savedLanguage,
+    fallbackLng: 'zh-TW',
+    detection: {
+      order: ['localStorage', 'navigator'],
+      lookupLocalStorage: 'userLanguage',
+      caches: ['localStorage'],
+    },
     interpolation: {
       escapeValue: false
     }
   });
 
-export default i18n; 
+i18n.on('languageChanged', (lng) => {
+  localStorage.setItem('userLanguage', lng);
+  document.documentElement.lang = lng;
+});
+
+export default i18n;
+
