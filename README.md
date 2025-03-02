@@ -96,7 +96,3 @@ gamereportgenerator/
 This project is licensed under the MIT License - see the LICENSE file for details
 本專案採用 MIT 授權條款 - 查看 LICENSE 檔案了解詳情
 
-## Contact | 聯絡方式
-
-Project Link: [repository-url]
-專案連結：[repository-url]
