@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# Game Report Generator
+# 遊戲報告生成器
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based web application that generates detailed game reports using AI technology.
+基於React的網頁應用程式，使用AI技術生成詳細的遊戲報告。
 
-## Available Scripts
+## Features | 功能特點
 
-In the project directory, you can run:
+- AI-powered game report generation | AI驅動的遊戲報告生成
+- Multi-language support (i18n) | 多語言支援（國際化）
+- Firebase integration | Firebase整合
+- Responsive web design | 響應式網頁設計
+- HuggingFace AI model integration | 整合HuggingFace AI模型
 
-### `npm start`
+## Tech Stack | 技術棧
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React 18.3
+- Firebase 11.0
+- i18next (Internationalization)
+- React Router DOM 6.27
+- Hugging Face Inference API
+- Replicate API
+- Axios for API calls
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites | 前置要求
 
-### `npm test`
+- Node.js (v14 or higher)
+- npm or yarn
+- Firebase account (for deployment) | Firebase帳號（用於部署）
+- API keys for HuggingFace/Replicate (for AI features) | HuggingFace/Replicate的API金鑰（用於AI功能）
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation | 安裝
 
-### `npm run build`
+1. Clone the repository | 克隆儲存庫
+```bash
+git clone [repository-url]
+cd gamereportgenerator
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install dependencies | 安裝依賴
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Set up environment variables | 設置環境變數
+Create a `.env` file in the root directory and add your API keys:
+在根目錄創建 `.env` 檔案並添加你的API金鑰：
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```env
+REACT_APP_FIREBASE_CONFIG=your_firebase_config
+REACT_APP_HUGGINGFACE_API_KEY=your_huggingface_key
+REACT_APP_REPLICATE_API_KEY=your_replicate_key
+```
 
-### `npm run eject`
+## Running the Application | 運行應用程式
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Development | 開發環境
+```bash
+npm start
+```
+This will start the development server at http://localhost:3000
+這將在 http://localhost:3000 啟動開發伺服器
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Production Build | 生產環境建置
+```bash
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Deployment | 部署
+```bash
+firebase deploy
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Structure | 專案結構
 
-## Learn More
+```
+gamereportgenerator/
+├── src/               # Source files | 源碼檔案
+├── public/           # Static files | 靜態檔案
+├── build/            # Production build | 生產環境建置
+├── .firebase/        # Firebase configuration | Firebase配置
+├── .github/          # GitHub workflows | GitHub工作流程
+└── firebase.json     # Firebase settings | Firebase設定
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing | 貢獻指南
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the repository | 分叉儲存庫
+2. Create your feature branch | 創建功能分支 (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes | 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch | 推送到分支 (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request | 開啟拉取請求
 
-### Code Splitting
+## License | 授權條款
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License - see the LICENSE file for details
+本專案採用 MIT 授權條款 - 查看 LICENSE 檔案了解詳情
 
-### Analyzing the Bundle Size
+## Contact | 聯絡方式
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [repository-url]
+專案連結：[repository-url]
